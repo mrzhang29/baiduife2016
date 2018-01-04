@@ -1,0 +1,272 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0
+}
+
+em,
+i {
+	font-style: normal
+}
+
+li {
+	list-style: none
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+button {
+	cursor: pointer
+}
+
+a {
+	color: #666;
+	text-decoration: none
+}
+
+a:hover {
+	color: #c81623
+}
+
+button,
+input {
+	font-family: Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif
+}
+
+body {
+	background-color: #fff;
+	font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5b8b\4f53, sans-serif;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0
+}
+
+
+/*图标文件*/
+
+.icon {
+	background: url(../images/icon.png) no-repeat;
+}
+
+.login {
+	height: 17px;
+	width: 14px;
+	background-position: 0 0;
+}
+
+.icon5 {
+	height: 25px;
+	width: 24px;
+	background-position: -14px 0;
+}
+
+.icon8 {
+	height: 25px;
+	width: 24px;
+	background-position: -38px 0;
+}
+
+.icon7 {
+	height: 25px;
+	width: 29px;
+	background-position: -62px 0;
+}
+
+.icon6 {
+	height: 25px;
+	width: 29px;
+	background-position: -91px 0;
+}
+
+.icon1 {
+	height: 42px;
+	width: 42px;
+	background-position: -120px 0;
+}
+
+.icon2 {
+	height: 42px;
+	width: 42px;
+	background-position: -162px 0;
+}
+
+.icon3 {
+	height: 42px;
+	width: 42px;
+	background-position: -204px 0;
+}
+
+.icon4 {
+	height: 42px;
+	width: 42px;
+	background-position: -246px 0;
+}
+
+
+/*头部开始*/
+
+header {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 21px;
+	float: left;
+	background: url(../img/logo.png) no-repeat 0 15px;
+	line-height: 60px;
+	padding-left: 40px;
+	margin-left: 60px;
+}
+
+nav {
+	float: right;
+	line-height: 55px;
+	font-size: 14px;
+	margin-right: 50px;
+}
+
+nav li {
+	float: left;
+}
+
+nav a:hover {
+	display: block;
+	border-bottom: 5px solid #F26665;
+}
+
+nav li a {
+	color: #787b83;
+	padding: 0 20px;
+	border-bottom-width: 5px;
+}
+
+.navFirst a {
+	color: #E74F4D;
+	display: block;
+	border-bottom: 5px solid #F26665;
+}
+
+.navSecond a {
+	color: #E74F4D;
+	padding-left: 30px;
+	padding-right: 10px;
+	display: block;
+	background: url(../img/login.png) no-repeat 10px 20px;
+}
+
+
+/*头部结束*/
+
+
+/*banner 开始*/
+
+article {
+	width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.banner {
+	background: url(../img/banner.png) no-repeat;
+	background-size: 100%;
+	height: 857px;
+}
+
+.bannerCover {
+	background-color: #000000;
+	width: 100%;
+	height: 857px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	opacity: 0.1;
+}
+
+.bannerText1 {
+	font-size: 60px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 210px;
+	left: 120px;
+}
+
+.bannerText2 {
+	font-size: 21px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 290px;
+	left: 120px;
+}
+
+.bannerText3 a {
+	font-size: 30px;
+	color: #FFFFFF;
+	background-color: #E74F4D;
+	position: absolute;
+	padding: 10px 100px;
+	top: 410px;
+	left: 120px;
+}
+
+.banner ul {
+	width: 100%;
+	position: absolute;
+	bottom: -30px;
+	z-index: 3;
+	background-color: #FFFFFF;
+}
+
+.banner li {
+	position: relative;
+	float: left;
+	width: 25%;
+	padding: 135px 0 25px 0;
+}
+
+.bannerText4 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 18px;
+	color: #767777;
+	border-right: 1px solid #D5D5D5;
+	padding: 0 80px;
+}
+.banner li:last-child .bannerText4{
+	border-right-width: 0;
+}
+.bannerText4 img {
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top: 45px;
+	left: 145px;
+}
+.about {
+	margin-top: 90px;
+	background-color: #EDEDEC;
+	padding: 90px 0 35px 0;
+}
+.about img{
+	display: block;
+	margin: 20px auto;
+}
+.about p {
+	margin: 45px auto;
+	font-size: 55px;
+	line-height: 55px;
+	color: #A1A1A1;
+	text-align: center;
+	}
+/*banner 结束*/

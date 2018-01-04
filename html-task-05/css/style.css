@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/* 去掉内边距和外边距 */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*网页背景*/
+
+body {
+	background-color: #DEDEDE;
+	font-family: "microsoft yahei";
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/*头部区域*/
+
+header {
+	height: 60px;
+	background-color: #333333;
+}
+
+header img {
+	height: 40px;
+	width: 120px;
+	margin: 10px 35px;
+	float: left;
+}
+
+nav {
+	float: right;
+	line-height: 60px;
+}
+
+nav li {
+	float: left;
+	padding-right: 20px;
+}
+
+nav a {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+
+/*主体部分*/
+
+
+article {
+	background-color: #FFFFFF;
+	margin: 20px 440px 20px 20px;
+	padding: 20px;
+	border: 1px solid #CBCBCB;
+	box-shadow: 1px 1px 1px #A3A3A3;
+	/*添加阴影*/
+}
+
+h2 {
+	margin: 20px 0;
+	font-size: 22px;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #67625C;
+	line-height: 30px;
+}
+
+span {
+	font-size: 12px;
+	color: #6C6C6E;
+	line-height: 30px;
+}
+
+p {
+	line-height: 24px;
+	text-indent: 2em;
+	/*首行缩进*/
+}
+
+p,
+li,
+figcaption {
+	font-size: 14px;
+}
+
+article img {
+	padding: 15px 0;
+}
+
+.article-2 li {
+	list-style: none;
+	padding-left: 20px;
+	line-height: 25px;
+}
+
+figure {
+	width: 120px;
+	height: 130px;
+	border: 1px solid #CBCBCB;
+	margin: 0 0 15px 40px;
+}
+
+figcaption {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+figure img {
+	width: 100px;
+	height: 80px;
+	padding: 0px 10px 10px 10px;
+}
+
+.article-4 li {
+	margin: 10px 40px;
+	font-weight: 600;
+}
+
+.article-4 table {
+	width: 100%;
+	border-collapse: collapse;
+	/*合并表格边框*/
+	text-align: left;
+}
+
+.article-4 caption {
+	text-align: left;
+}
+
+.article-4 thead {
+	background-color: #333333;
+	color: #FFFFFF;
+}
+
+.article-4 th,
+.article-4 td {
+	font-size: 14px;
+	padding: 3px;
+	border: solid 1px #c0c0c0;
+}
+
+.article-4 tfoot {
+	font-weight: 600;
+	background-color: #CCCCCC;
+}
+
+
+/*侧栏部分*/
+
+aside {
+	clear: both;
+	width: 360px;
+	float: right;
+	background-color: #FFFFFF;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #CBCBCB;
+	box-shadow: 1px 1px 1px #A3A3A3;
+}
+
+aside table {
+	width: 100%;
+	font-size: 12px;
+}
+
+.td-left {
+	text-align: right;
+}
+
+.td-left-dsp {
+	text-align: right;
+	vertical-align: top;
+}
+
+aside td {
+	padding: 3px 10px;
+}
+
+.td-right {
+	margin-right: 10px;
+}
+
+.tips {
+	line-height: 24px;
+	color: #958588;
+}
+
+textarea {
+	width: 95%;
+	height: 80px;
+}
+
+.submit {
+	width: 100%;
+	height: 36px;
+	background-color: #3355D0;
+	border: 0;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+
+/*底部*/
+
+
+footer p {
+	
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+	font-size: 18px;
+}
